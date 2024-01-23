@@ -1,6 +1,6 @@
 require('dotenv').config();
 let mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://ahmedHodhod:2512011@cluster0.vmnpfpx.mongodb.net/fcc-mongodb-and-mongoose?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb+srv://ahmedHodhod:<password>@cluster0.vmnpfpx.mongodb.net/fcc-mongodb-and-mongoose?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true });
 
 let Person;
 
